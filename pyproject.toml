@@ -1,0 +1,24 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "nano-vllm"
+version = "0.1.0"
+description = "A small decoder-only transformer inference project"
+requires-python = ">=3.11"
+dependencies = ["torch>=2.5,<3"]
+
+[project.optional-dependencies]
+dev = ["ruff>=0.9"]
+comparison = ["transformers>=4.54,<5", "safetensors>=0.5"]
+
+[tool.setuptools.packages.find]
+include = ["model*", "storage*", "runtime*", "benchmarks*", "scripts*"]
+
+[tool.ruff]
+line-length = 120
+exclude = ["research", "build"]
+
+[tool.ruff.lint]
+select = ["E4", "E7", "E9", "F"]

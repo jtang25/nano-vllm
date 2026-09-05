@@ -1,0 +1,13 @@
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+build/
+dist/
+.pytest_cache/
+checkpoints/
+results/local/
+results/a100/raw/
+results/a100/*.tar.gz
+.ruff_cache/
+data/
