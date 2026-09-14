@@ -1,0 +1,190 @@
+{
+  "python": "3.12.6",
+  "torch": "2.10.0+cpu",
+  "cuda_runtime": null,
+  "device": "cpu",
+  "device_name": "Intel64 Family 6 Model 170 Stepping 4, GenuineIntel",
+  "dtype": "torch.float32",
+  "seed": 42,
+  "threads": 1,
+  "config": {
+    "vocab_size": 259,
+    "d_model": 32,
+    "n_layers": 2,
+    "n_q_heads": 4,
+    "n_kv_heads": 2,
+    "d_ff": 96,
+    "max_seq_len": 2048,
+    "norm_eps": 1e-06,
+    "rope_base": 10000.0,
+    "n_experts": 0,
+    "experts_per_token": 2,
+    "tie_embeddings": false,
+    "attention_backend": "sdpa"
+  },
+  "attention_backend": "sdpa",
+  "checkpoint": null,
+  "random_weights": true,
+  "prompt_length": 4,
+  "decode_tokens": 3,
+  "block_size": 16,
+  "repeats": 1,
+  "warmup": 0,
+  "single_request": {
+    "uncached": {
+      "prefill": {
+        "median_ms": 1.0162000035052188,
+        "min_ms": 1.0162000035052188,
+        "p95_ms": 1.0162000035052188,
+        "samples_ms": [
+          1.0162000035052188
+        ]
+      },
+      "decode_total": {
+        "median_ms": 2.527399999962654,
+        "min_ms": 2.527399999962654,
+        "p95_ms": 2.527399999962654,
+        "samples_ms": [
+          2.527399999962654
+        ]
+      },
+      "time_per_decode_token": {
+        "median_ms": 0.8172000016202219,
+        "min_ms": 0.7652999993297271,
+        "p95_ms": 0.9448999990127049,
+        "samples_ms": [
+          0.8172000016202219,
+          0.9448999990127049,
+          0.7652999993297271
+        ]
+      },
+      "decode_tokens_per_second": 1186.9905832255795
+    },
+    "contiguous": {
+      "prefill": {
+        "median_ms": 0.9293999974033795,
+        "min_ms": 0.9293999974033795,
+        "p95_ms": 0.9293999974033795,
+        "samples_ms": [
+          0.9293999974033795
+        ]
+      },
+      "decode_total": {
+        "median_ms": 3.2879999998840503,
+        "min_ms": 3.2879999998840503,
+        "p95_ms": 3.2879999998840503,
+        "samples_ms": [
+          3.2879999998840503
+        ]
+      },
+      "time_per_decode_token": {
+        "median_ms": 0.7508999988203868,
+        "min_ms": 0.7508000053348951,
+        "p95_ms": 1.7862999957287684,
+        "samples_ms": [
+          1.7862999957287684,
+          0.7508999988203868,
+          0.7508000053348951
+        ]
+      },
+      "decode_tokens_per_second": 912.4087591562633
+    },
+    "paged": {
+      "prefill": {
+        "median_ms": 1.2757000004057772,
+        "min_ms": 1.2757000004057772,
+        "p95_ms": 1.2757000004057772,
+        "samples_ms": [
+          1.2757000004057772
+        ]
+      },
+      "decode_total": {
+        "median_ms": 2.945300002465956,
+        "min_ms": 2.945300002465956,
+        "p95_ms": 2.945300002465956,
+        "samples_ms": [
+          2.945300002465956
+        ]
+      },
+      "time_per_decode_token": {
+        "median_ms": 0.9725999989314005,
+        "min_ms": 0.9299000012106262,
+        "p95_ms": 1.0428000023239292,
+        "samples_ms": [
+          1.0428000023239292,
+          0.9299000012106262,
+          0.9725999989314005
+        ]
+      },
+      "decode_tokens_per_second": 1018.5719612563224
+    }
+  },
+  "memory_model": {
+    "kv_bytes_per_token": 256,
+    "parameter_bytes": 167808,
+    "live_kv_bytes": 1792
+  },
+  "engine": {
+    "median_ms": 13.076799994450994,
+    "min_ms": 13.076799994450994,
+    "p95_ms": 13.076799994450994,
+    "samples_ms": [
+      13.076799994450994
+    ],
+    "requests": 4,
+    "forward_calls": 5,
+    "request_latencies": [
+      [
+        {
+          "ttft_ms": 1.7701000033412129,
+          "end_to_end_ms": 11.075100002926774,
+          "inter_token_ms": [
+            5.099399997561704,
+            4.203500000585336
+          ]
+        },
+        {
+          "ttft_ms": 3.793000003497582,
+          "end_to_end_ms": 11.135900000226684,
+          "inter_token_ms": [
+            3.1200000012177043,
+            4.221700000925921
+          ]
+        },
+        {
+          "ttft_ms": 6.961999999475665,
+          "end_to_end_ms": 12.976999998500105,
+          "inter_token_ms": [
+            4.230400001688395,
+            1.7837999985204078
+          ]
+        },
+        {
+          "ttft_ms": 6.771899999876041,
+          "end_to_end_ms": 12.892499995359685,
+          "inter_token_ms": [
+            4.203599994070828,
+            1.9157000060658902
+          ]
+        }
+      ]
+    ],
+    "output_tokens_per_second": 917.6556959724151
+  },
+  "speculative_smoke": {
+    "single_run_ms": 9.944299999915529,
+    "target_calls": 4,
+    "draft_calls": 9,
+    "baseline_target_calls": 3,
+    "proposed": 6,
+    "accepted": 0,
+    "random_draft": true,
+    "note": "Single functional run, not a statistically meaningful speed comparison."
+  },
+  "notes": [
+    "Synchronized wall time includes Python dispatch and device execution.",
+    "Peak CUDA allocation includes the model, reference logits, pool, and allocator-visible temporaries.",
+    "Paged attention is a block-streaming PyTorch implementation, not a fused CUDA kernel.",
+    "Engine and speculative runs have different accounting from forced-token decode."
+  ]
+}

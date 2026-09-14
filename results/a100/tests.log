@@ -1,0 +1,41 @@
+test_cache_capacity (test_decoder_block.DecoderBlockTests.test_cache_capacity) ... ok
+test_cached_attention_matches_uncached_reference (test_decoder_block.DecoderBlockTests.test_cached_attention_matches_uncached_reference) ... ok
+test_cached_block_matches_uncached_reference (test_decoder_block.DecoderBlockTests.test_cached_block_matches_uncached_reference) ... ok
+test_rope_preserves_norm (test_decoder_block.DecoderBlockTests.test_rope_preserves_norm) ... ok
+test_cuda_dtypes_paged_sdpa_moe (test_inference.CudaTests.test_cuda_dtypes_paged_sdpa_moe) ... ok
+test_cuda_engine_and_speculative (test_inference.CudaTests.test_cuda_engine_and_speculative) ... ok
+test_cuda_shared_prefix_and_batched_speculation (test_inference.CudaTests.test_cuda_shared_prefix_and_batched_speculation) ... ok
+test_all_cache_paths_and_head_counts (test_inference.InferenceTests.test_all_cache_paths_and_head_counts) ... ok
+test_cancel_and_waiting_capacity (test_inference.InferenceTests.test_cancel_and_waiting_capacity) ... ok
+test_engine_failure_after_another_request_finishes (test_inference.InferenceTests.test_engine_failure_after_another_request_finishes) ... ok
+test_engine_matches_independent_generation (test_inference.InferenceTests.test_engine_matches_independent_generation) ... ok
+test_failure_rollback_and_exhaustion (test_inference.InferenceTests.test_failure_rollback_and_exhaustion) ... ok
+test_moe_dispatch_against_dense_expert_evaluation (test_inference.InferenceTests.test_moe_dispatch_against_dense_expert_evaluation) ... ok
+test_packed_mixed_prefill_decode (test_inference.InferenceTests.test_packed_mixed_prefill_decode) ... ok
+test_pool_noncontiguous_reuse_and_poison (test_inference.InferenceTests.test_pool_noncontiguous_reuse_and_poison) ... ok
+test_rejection_distribution_identity (test_inference.InferenceTests.test_rejection_distribution_identity) ... ok
+test_sdpa_reference (test_inference.InferenceTests.test_sdpa_reference) ... ok
+test_speculative_eos_and_zero (test_inference.InferenceTests.test_speculative_eos_and_zero) ... ok
+test_speculative_greedy_and_identical_draft (test_inference.InferenceTests.test_speculative_greedy_and_identical_draft) ... ok
+test_training_backward (test_inference.InferenceTests.test_training_backward) ... ok
+test_checkpoint_roundtrip (test_io.IOTests.test_checkpoint_roundtrip) ... ok
+test_sampling_support (test_io.IOTests.test_sampling_support) ... ok
+test_tokenizer_unicode_roundtrip (test_io.IOTests.test_tokenizer_unicode_roundtrip) ... ok
+test_logits_match_transformers_llama (test_llama_export.LlamaExportTests.test_logits_match_transformers_llama) ... ok
+test_comparison_refuses_different_workload (test_measurements.MeasurementTests.test_comparison_refuses_different_workload) ... ok
+test_executed_capacity_and_waste (test_measurements.MeasurementTests.test_executed_capacity_and_waste) ... ok
+test_ncu_counter_units (test_measurements.MeasurementTests.test_ncu_counter_units) ... ok
+test_cow_exhaustion_is_atomic (test_prefix.PrefixTests.test_cow_exhaustion_is_atomic) ... ok
+test_engine_reuses_prefix (test_prefix.PrefixTests.test_engine_reuses_prefix) ... ok
+test_partial_block_copy_on_write_and_parent_isolation (test_prefix.PrefixTests.test_partial_block_copy_on_write_and_parent_isolation) ... ok
+test_every_rejection_position_and_pending_alignment (test_speculative.SpeculativeTests.test_every_rejection_position_and_pending_alignment) ... ok
+test_identical_distribution_accepts_all_proposals (test_speculative.SpeculativeTests.test_identical_distribution_accepts_all_proposals) ... ok
+test_sampled_distribution_including_second_token (test_speculative.SpeculativeTests.test_sampled_distribution_including_second_token) ... ok
+test_top_p_and_top_k_distribution (test_speculative.SpeculativeTests.test_top_p_and_top_k_distribution) ... ok
+test_ragged_batch_matches_target (test_speculative_batch.BatchSpecTests.test_ragged_batch_matches_target) ... ok
+test_train_save_load_and_generate (test_training.TrainingTests.test_train_save_load_and_generate) ... ok
+
+----------------------------------------------------------------------
+Ran 36 tests in 20.087s
+
+OK

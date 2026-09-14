@@ -1,0 +1,24 @@
+{
+  "dataset": "HuggingFaceH4/no_robots",
+  "revision": "e6f9a4ac5c37faeb744ba9ecf0473184d7f8105b",
+  "split": "test",
+  "file_sha256": "60707b2636a46e37bb0c1e9ca263a18553f430317b7a53c691676d6a492fc0f2",
+  "license": "CC-BY-NC-4.0",
+  "source": "https://huggingface.co/datasets/HuggingFaceH4/no_robots",
+  "prompts": 500,
+  "tokenizer": "checkpoints/qwen-target-hf",
+  "seed": 42,
+  "workload_sha256": {
+    "heldout": "45ac13da3a4c90416ae51d00b35449940d3dd41b39783d9b3ede12bc88de352c",
+    "b32-c2048": "f4ac9705c4f8461e2839884ed6f363a1138360b896d3eb05c2420c5172b58ec4",
+    "mixed": "3317e0791639b883bfd3751dac67bf66b5d5ab472643608e6abe40d990008969",
+    "lengths": "1239f72512a11c73f8d058789ae01509acd1465fd272b933882c550d459e2dc4",
+    "spec-minimal": "9924527b48ccf781cbfeb60e885943c49c1b0396116e26ad26e5925a2bc0c9b7",
+    "mixed-minimal": "eec3d3362f3a6cbddcfc9470e578c79a1ffe73dc00402864330fac868f788816"
+  },
+  "notes": [
+    "Public evaluation prompts; absence from Qwen training data is not established.",
+    "heldout uses the first user turn/chat prefix, truncated to 512 tokens with generation suffix retained.",
+    "Fixed-length and mixed-load inputs concatenate tokenized prompts for controlled shapes; they are synthetic sequences of real text IDs."
+  ]
+}
