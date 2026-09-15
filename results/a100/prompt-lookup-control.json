@@ -1,0 +1,219 @@
+{
+  "environment": {
+    "checkpoint_sha256": "6453cb343da7e167304511397fd681a6ad2cd8960b3136e42516b2cb709d4a7b",
+    "workload_sha256": "9924527b48ccf781cbfeb60e885943c49c1b0396116e26ad26e5925a2bc0c9b7",
+    "python": "3.12.14",
+    "torch": "2.14.0+cu130",
+    "cuda": "13.0",
+    "gpu": "NVIDIA A100-SXM4-40GB",
+    "dtype": "torch.float16",
+    "config": {
+      "vocab_size": 151936,
+      "d_model": 1536,
+      "n_layers": 28,
+      "n_q_heads": 12,
+      "n_kv_heads": 2,
+      "d_ff": 8960,
+      "max_seq_len": 32768,
+      "norm_eps": 1e-06,
+      "rope_base": 1000000.0,
+      "n_experts": 0,
+      "experts_per_token": 2,
+      "tie_embeddings": true,
+      "attention_backend": "sdpa",
+      "qkv_bias": true,
+      "output_bias": false,
+      "mlp_bias": false
+    },
+    "attention_tile_tokens": 1024,
+    "runtime_attention_backends": [
+      "sdpa",
+      "sdpa",
+      "sdpa",
+      "sdpa",
+      "sdpa",
+      "sdpa",
+      "sdpa",
+      "sdpa",
+      "sdpa",
+      "sdpa",
+      "sdpa",
+      "sdpa",
+      "sdpa",
+      "sdpa",
+      "sdpa",
+      "sdpa",
+      "sdpa",
+      "sdpa",
+      "sdpa",
+      "sdpa",
+      "sdpa",
+      "sdpa",
+      "sdpa",
+      "sdpa",
+      "sdpa",
+      "sdpa",
+      "sdpa",
+      "sdpa"
+    ],
+    "source_sha256": {
+      "attention.py": "39db58208d7598d74691c2189ccc77f8e5b7b84520acffdfab38b38a6b39a686",
+      "benchmark.py": "0687e5b361f618b9690cbe58d9f2277fb35a670e4eedf056c338a4c5ee0cc2d1",
+      "cache.py": "ba1a5595e4549d24496f9fe044ed41cd3f53e0d8437c51b94ae5b4139e246b09",
+      "checkpoint.py": "388cb5f8016a24851cb36feca23ee60a0c77cc6103c645610b58c5503a5b83ff",
+      "compare_reports.py": "533a2c2c1c1ed9b59f9aefa8e04337b796c130cbe7b482f5972bde9c2059efcd",
+      "compare_runtime.py": "6c70c618d2953513d829d4cb2ca2d63e42fddbbb24e5087bcfada0d0e278e68d",
+      "config.py": "17eebdff8f98358e1822f7dfab2e7ffba6e5ad82717ab132f252b9b4382c06bf",
+      "engine.py": "18e42679f0b07f568161f8da69694895cf2c1e4d6c51967b16c8e9aca1a22ae5",
+      "experiment_utils.py": "9cabcabe22f0aae5137190f43e3e611f88e440f66228a226c992a717049e0ae5",
+      "generation.py": "2d5515ed0eaf7aba733bde55b210b21f6eb93812d2a173f37c2a2be0a1119e11",
+      "layers.py": "69e26652da13a3a8a05880efe052bd8281431b5bbf12310b8db61e272919cb9f",
+      "llama_export.py": "f2d4a4f8ffe6acb161f935f6ec26a363b5dad4c08844d1808b43195523434afa",
+      "measure_attention.py": "c949a9ca5b8e899279f82ffe19546758489d3c45cbbbb5cad6c2d05810d21ce6",
+      "measure_memory.py": "0bbd2c8c1631998dd3be4c9ab874d12724763814824ce69dd59a8afc235ba6f3",
+      "paged_cache.py": "22d6a0fd3086b5cbfc03716776ccc050b1633ae197b384bf3e649b0483fa3a39",
+      "prefix_cache.py": "327585292dda41254525a55ef149b1375d5e92b685242c3cafe7bd322c32e988",
+      "prepare_prompt_lookup_workload.py": "0559d2235cf4a7dcb82070ebd2f92d53ecb2ca30512d379c893dc6a6bad9b8f4",
+      "prepare_qwen_workloads.py": "7ff5140d5bc04d6e655e68f4a9f9543ed08ccf8d2bcd3a5c2f5c0a60cc91ab57",
+      "profile_workload.py": "f391d94c7d6ba3d8105f7cff8fa834e1cdcf28c335c1b4b3983e0009743083d5",
+      "prompt_lookup.py": "caad223d9f544c3ffdb8a78e1e4ca24629365009380ceb625c34cb641a2bb124",
+      "proposers.py": "1e68e28221eb0d69115fb454828fea0da765cd44faa31550cde832d0cdf8663e",
+      "qwen_import.py": "a5acf700f74a3ea595775ad2810230ae702e70b9576b1697ac7483f3dde1d4a4",
+      "roofline_report.py": "4dd011afa970311d96c45b4825e2c867ed320a7c1654b7d89ad04d2d0178c563",
+      "run.py": "a9f0c528403bf80d8ca587ea77acbef5c700ffbbe404ed68fbbb82d3318c9d28",
+      "sampling.py": "fd03ee1eebba33730943e1a2b3430d24e7e21711fa85ea89eb1a75e2d50dabc9",
+      "speculative.py": "c7bfb014dabdbd6000df12a61bb1d1ef50591df8d06920a7cc41b5545c244897",
+      "speculative_batch.py": "034644707daf667d25b2d235d179bc10330ff831554b59caa74519bef7ceb249",
+      "summarize_experiments.py": "16bdf6223cf9606c8d7e83059fd47b45433cafb37efc52a708af931c9b986824",
+      "sweep_memory.py": "29119050de7eb0f7416278da6e154c27b667664453676fbd2d7353a6eb4c350b",
+      "sweep_prompt_lookup.py": "dec1db6a966a9a23ab80cf85e96fa1cd38095a8437f95f81d6ef994ee9bd7413",
+      "sweep_scheduler.py": "856f31c3731a6a798eb6f9fde27bf2e495ebd64443bb9e3ef3647f66dc296065",
+      "sweep_speculation.py": "f6dc8854452d94397a07a34f10a01e48edac1c3ada2fb46b1d3ebc89b23fde9a",
+      "tokenizer.py": "41c59fdb3d55c09216ae22940ce52ecf34fb6311e852390e771b363050e3719f",
+      "train.py": "b6a20d38e0aca70e11306b8ac44bfb50a9ff5ca39aa186301d3d862faedb2cd2",
+      "validate_distributions.py": "c07a63cc6376f3332e9a8297044575e898fa0a27aa0f15627150d433c5889cdf",
+      "validate_qwen.py": "e3543c2004b6e8f2dc25c82fa781ff434ce1ccbd8610d2829b1bfd6bb6df9bdd",
+      "workload.py": "eed2f6a24cca06afaff60b9937d598b3513ae48c7a62e5d23b501a21d3b23dc2"
+    },
+    "parameters": 1543714304
+  },
+  "requests": 1,
+  "lookahead": 4,
+  "warmup": 1,
+  "runs": [
+    {
+      "min_ngram": 1,
+      "max_ngram": 4,
+      "samples": [
+        {
+          "baseline_seconds": 2.761499442975037,
+          "lookup_seconds": 2.712317347060889,
+          "baseline_latency": {
+            "ttft_ms": [
+              31.424171989783645
+            ],
+            "tpot_ms": [
+              43.33238257095218
+            ],
+            "median_ttft_ms": 31.424171989783645,
+            "median_tpot_ms": 43.33238257095218
+          },
+          "lookup_latency": {
+            "ttft_ms": [
+              76.08087407425046
+            ],
+            "tpot_ms": [
+              41.84403417388066
+            ],
+            "median_ttft_ms": 76.08087407425046,
+            "median_tpot_ms": 41.84403417388066
+          },
+          "baseline_target_calls": 64,
+          "lookup_target_calls": 63,
+          "proposed": 68,
+          "accepted": 2,
+          "bonus_tokens": 0,
+          "lookup_rounds": 62,
+          "matched_ngram_sizes": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            2,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "greedy_sequence_match": 1.0
+        },
+        {
+          "baseline_seconds": 2.754017574014142,
+          "lookup_seconds": 2.7165236480068415,
+          "baseline_latency": {
+            "ttft_ms": [
+              31.56655002385378
+            ],
+            "tpot_ms": [
+              43.21224325417822
+            ],
+            "median_ttft_ms": 31.56655002385378,
+            "median_tpot_ms": 43.21224325417822
+          },
+          "lookup_latency": {
+            "ttft_ms": [
+              76.29315101075917
+            ],
+            "tpot_ms": [
+              41.90746058769051
+            ],
+            "median_ttft_ms": 76.29315101075917,
+            "median_tpot_ms": 41.90746058769051
+          },
+          "baseline_target_calls": 64,
+          "lookup_target_calls": 63,
+          "proposed": 68,
+          "accepted": 2,
+          "bonus_tokens": 0,
+          "lookup_rounds": 62,
+          "matched_ngram_sizes": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            2,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "greedy_sequence_match": 1.0
+        }
+      ],
+      "tpot_speedup": 1.0333502234379324,
+      "end_to_end_speedup": 1.015965842801474
+    }
+  ],
+  "match_selection": "earliest occurrence in the original sequence among longest matches",
+  "verification": "variable proposal lengths are packed; rollback is per sequence",
+  "scope": "offline batching, one device; no scheduler integration, Numba, or GPU lookup kernel",
+  "note": "Control run on the first public, non-repetitive generation prompt from spec-minimal; do not generalize from one prompt."
+}

@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="864pt" height="475.2pt" viewBox="0 0 864 475.2" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:date>2026-09-15T14:27:26.721819</dc:date>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Matplotlib v3.10.0, https://matplotlib.org/</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 475.2 
+L 864 475.2 
+L 864 0 
+L 0 0 
+z
+" style="fill: #ffffff"/>
+  </g>
+  <g id="axes_1">
+   <g id="patch_2">
+    <path d="M 86.4 365.904 
+L 829.44 365.904 
+L 829.44 118.8 
+L 86.4 118.8 
+z
+" style="fill: #ffffff"/>
+   </g>
+   <g id="matplotlib.axis_1">
+    <g id="xtick_1">
+     <g id="line2d_1"/>
+     <g id="text_1">
+      <text style="font-size: 11px; font-family: 'DejaVu Sans'; fill: #1e293b" transform="translate(162.620354 384.262281)">Target only</text>
+      <text style="font-size: 11px; font-family: 'DejaVu Sans'; fill: #1e293b" transform="translate(137.045354 396.579875)">Normalized baseline</text>
+      <text style="font-size: 11px; font-family: 'DejaVu Sans'; fill: #1e293b" transform="translate(143.634182 408.897469)">for each workload</text>
+     </g>
+    </g>
+    <g id="xtick_2">
+     <g id="line2d_2"/>
+     <g id="text_2">
+      <text style="font-size: 11px; font-family: 'DejaVu Sans'; fill: #1e293b" transform="translate(411.976953 384.262281)">Lookup / general</text>
+      <text style="font-size: 11px; font-family: 'DejaVu Sans'; fill: #1e293b" transform="translate(400.440703 396.579875)">1 prompt · 64 tokens</text>
+      <text style="font-size: 11px; font-family: 'DejaVu Sans'; fill: #1e293b" transform="translate(402.659609 408.897469)">2 measured repeats</text>
+     </g>
+    </g>
+    <g id="xtick_3">
+     <g id="line2d_3"/>
+     <g id="text_3">
+      <text style="font-size: 11px; font-family: 'DejaVu Sans'; fill: #1e293b" transform="translate(668.698396 384.262281)">Synthetic repetitive</text>
+      <text style="font-size: 11px; font-family: 'DejaVu Sans'; fill: #1e293b" transform="translate(643.962146 396.579875)">8 prompts · 128 tokens each</text>
+      <text style="font-size: 11px; font-family: 'DejaVu Sans'; fill: #1e293b" transform="translate(667.558005 408.897469)">2 measured repeats</text>
+     </g>
+    </g>
+   </g>
+   <g id="matplotlib.axis_2">
+    <g id="ytick_1">
+     <g id="line2d_4">
+      <path d="M 86.4 365.904 
+L 829.44 365.904 
+" clip-path="url(#p567cb6e32d)" style="fill: none; stroke: #edf0f4; stroke-width: 0.8; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_5"/>
+     <g id="text_4">
+      <text style="font-size: 11px; font-family: 'DejaVu Sans'; text-anchor: end; fill: #1e293b" x="76.4" y="370.083141" transform="rotate(-0 76.4 370.083141)">0.0×</text>
+     </g>
+    </g>
+    <g id="ytick_2">
+     <g id="line2d_6">
+      <path d="M 86.4 324.72 
+L 829.44 324.72 
+" clip-path="url(#p567cb6e32d)" style="fill: none; stroke: #edf0f4; stroke-width: 0.8; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_7"/>
+     <g id="text_5">
+      <text style="font-size: 11px; font-family: 'DejaVu Sans'; text-anchor: end; fill: #1e293b" x="76.4" y="328.899141" transform="rotate(-0 76.4 328.899141)">0.5×</text>
+     </g>
+    </g>
+    <g id="ytick_3">
+     <g id="line2d_8">
+      <path d="M 86.4 283.536 
+L 829.44 283.536 
+" clip-path="url(#p567cb6e32d)" style="fill: none; stroke: #edf0f4; stroke-width: 0.8; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_9"/>
+     <g id="text_6">
+      <text style="font-size: 11px; font-family: 'DejaVu Sans'; text-anchor: end; fill: #1e293b" x="76.4" y="287.715141" transform="rotate(-0 76.4 287.715141)">1.0×</text>
+     </g>
+    </g>
+    <g id="ytick_4">
+     <g id="line2d_10">
+      <path d="M 86.4 242.352 
+L 829.44 242.352 
+" clip-path="url(#p567cb6e32d)" style="fill: none; stroke: #edf0f4; stroke-width: 0.8; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_11"/>
+     <g id="text_7">
+      <text style="font-size: 11px; font-family: 'DejaVu Sans'; text-anchor: end; fill: #1e293b" x="76.4" y="246.531141" transform="rotate(-0 76.4 246.531141)">1.5×</text>
+     </g>
+    </g>
+    <g id="ytick_5">
+     <g id="line2d_12">
+      <path d="M 86.4 201.168 
+L 829.44 201.168 
+" clip-path="url(#p567cb6e32d)" style="fill: none; stroke: #edf0f4; stroke-width: 0.8; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_13"/>
+     <g id="text_8">
+      <text style="font-size: 11px; font-family: 'DejaVu Sans'; text-anchor: end; fill: #1e293b" x="76.4" y="205.347141" transform="rotate(-0 76.4 205.347141)">2.0×</text>
+     </g>
+    </g>
+    <g id="ytick_6">
+     <g id="line2d_14">
+      <path d="M 86.4 159.984 
+L 829.44 159.984 
+" clip-path="url(#p567cb6e32d)" style="fill: none; stroke: #edf0f4; stroke-width: 0.8; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_15"/>
+     <g id="text_9">
+      <text style="font-size: 11px; font-family: 'DejaVu Sans'; text-anchor: end; fill: #1e293b" x="76.4" y="164.163141" transform="rotate(-0 76.4 164.163141)">2.5×</text>
+     </g>
+    </g>
+    <g id="ytick_7">
+     <g id="line2d_16">
+      <path d="M 86.4 118.8 
+L 829.44 118.8 
+" clip-path="url(#p567cb6e32d)" style="fill: none; stroke: #edf0f4; stroke-width: 0.8; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_17"/>
+     <g id="text_10">
+      <text style="font-size: 11px; font-family: 'DejaVu Sans'; text-anchor: end; fill: #1e293b" x="76.4" y="122.979141" transform="rotate(-0 76.4 122.979141)">3.0×</text>
+     </g>
+    </g>
+    <g id="text_11">
+     <text style="font-size: 11px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #1e293b" x="43.40125" y="242.352" transform="rotate(-90 43.40125 242.352)">TPOT speedup</text>
+    </g>
+   </g>
+   <g id="patch_3">
+    <path d="M 120.174545 365.904 
+L 265.868663 365.904 
+L 265.868663 283.536 
+L 120.174545 283.536 
+z
+" clip-path="url(#p567cb6e32d)" style="fill: #cbd5e1"/>
+   </g>
+   <g id="patch_4">
+    <path d="M 385.072941 365.904 
+L 530.767059 365.904 
+L 530.767059 280.789009 
+L 385.072941 280.789009 
+z
+" clip-path="url(#p567cb6e32d)" style="fill: #4875cf"/>
+   </g>
+   <g id="patch_5">
+    <path d="M 649.971337 365.904 
+L 795.665455 365.904 
+L 795.665455 157.539084 
+L 649.971337 157.539084 
+z
+" clip-path="url(#p567cb6e32d)" style="fill: #294e96"/>
+   </g>
+   <g id="line2d_18">
+    <path d="M 86.4 283.536 
+L 829.44 283.536 
+" clip-path="url(#p567cb6e32d)" style="fill: none; stroke-dasharray: 5,4; stroke-dashoffset: 0; stroke: #64748b"/>
+   </g>
+   <g id="text_12">
+    <g id="patch_6">
+     <path d="M 746.947525 284.320968 
+L 820.2944 284.320968 
+L 820.2944 270.642843 
+L 746.947525 270.642843 
+z
+" style="fill: #ffffff"/>
+    </g>
+    <text style="font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: end; fill: #64748b" x="818.2944" y="280.24128" transform="rotate(-0 818.2944 280.24128)">1.0× baseline</text>
+   </g>
+   <g id="text_13">
+    <text style="font-weight: 700; font-size: 18px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #1e293b" x="193.021604" y="276.94656" transform="rotate(-0 193.021604 276.94656)">1.00×</text>
+   </g>
+   <g id="text_14">
+    <text style="font-weight: 700; font-size: 18px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #1e293b" x="457.92" y="274.199569" transform="rotate(-0 457.92 274.199569)">1.03×</text>
+   </g>
+   <g id="text_15">
+    <text style="font-weight: 700; font-size: 18px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #1e293b" x="722.818396" y="150.949644" transform="rotate(-0 722.818396 150.949644)">2.53×</text>
+   </g>
+  </g>
+  <g id="text_16">
+   <text style="font-weight: 600; font-size: 22px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #1e293b" x="51.84" y="38.016" transform="rotate(-0 51.84 38.016)">Repetition determines the payoff</text>
+  </g>
+  <g id="text_17">
+   <text style="font-size: 11px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #64748b" x="51.84" y="68.904" transform="rotate(-0 51.84 68.904)">Prompt lookup · TPOT speedup over each workload's target-only baseline · higher is better</text>
+  </g>
+  <g id="text_18">
+   <text style="font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #1e293b" x="51.84" y="439.56" transform="rotate(-0 51.84 439.56)">Qwen2.5-1.5B-Instruct · A100 40GB · greedy decoding · lookup lookahead 4</text>
+  </g>
+  <g id="text_19">
+   <text style="font-size: 9px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #1e293b" x="51.84" y="457.6176" transform="rotate(-0 51.84 457.6176)">Each speedup uses its own matched baseline. Synthetic and general prompts are different workloads.</text>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="p567cb6e32d">
+   <rect x="86.4" y="118.8" width="743.04" height="247.104"/>
+  </clipPath>
+ </defs>
+</svg>
